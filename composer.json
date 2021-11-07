@@ -1,0 +1,30 @@
+{
+    "name": "triscal/nette-form-generator",
+    "description": "Generating nette form base on data structure",
+    "type": "library",
+    "require": {
+        "nette/forms": "v3.0.7",
+        "ninjify/nunjuck": "0.4.*",
+        "ninjify/qa": "0.13.*"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.1",
+        "phpstan/phpstan-nette": "1.0.*",
+        "phpstan/phpstan-strict-rules": "1.0.*",
+        "phpstan/phpstan-deprecation-rules": "1.0.*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Triscal\\NetteFormGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Šimon Krejza",
+            "email": "simon@krejzy.eu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
