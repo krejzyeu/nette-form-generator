@@ -1,0 +1,167 @@
+{
+  "parts": [
+    {
+      "tag": "text",
+      "name": "text",
+      "label": "text",
+      "required": true
+    },
+    {
+      "tag": "textarea",
+      "name": "textarea",
+      "label": "textarea",
+      "required": false
+    },
+    {
+      "tag": "int",
+      "name": "int",
+      "label": "integer",
+      "required": false
+    },
+    {
+      "tag": "email",
+      "name": "email",
+      "label": "email",
+      "required": false
+    },
+    {
+      "tag": "password",
+      "name": "password",
+      "label": "password",
+      "required": false
+    },
+    {
+      "tag": "checkbox",
+      "name": "checkbox",
+      "label": "checkbox",
+      "required": false
+    },
+    {
+      "tag": "checkboxList",
+      "name": "checkboxList",
+      "label": "checkboxList",
+      "required": false,
+      "items": [
+        {
+          "r": "červená"
+        },
+        {
+          "g": "zelená"
+        },
+        {
+          "b": "modrá"
+        }
+      ]
+    },
+    {
+      "tag": "redioList",
+      "name": "redioList",
+      "label": "redioList",
+      "required": false,
+      "items": [
+        {
+          "r": "červená"
+        },
+        {
+          "g": "zelená"
+        },
+        {
+          "b": "modrá"
+        }
+      ]
+    },
+    {
+      "tag": "select",
+      "name": "select",
+      "label": "select",
+      "required": false,
+      "prompt": "cokoliv",
+      "items": [
+        {
+          "EUROPE": [
+            {
+              "CZ": "Česká Republik"
+            },
+            {
+              "SK": "Slovenská Republika"
+            },
+            {
+              "GB": "Velká Británie"
+            }
+          ]
+        },
+        {
+          "CA": "Kanada"
+        },
+        {
+          "US": "USA"
+        }
+      ]
+    },
+    {
+      "tag": "multiSelect",
+      "name": "multiSelect",
+      "label": "multiSelect",
+      "required": false,
+      "prompt": "cokoliv",
+      "items": [
+        {
+          "EUROPE": [
+            {
+              "CZ": "Česká Republik"
+            },
+            {
+              "SK": "Slovenská Republika"
+            },
+            {
+              "GB": "Velká Británie"
+            }
+          ]
+        },
+        {
+          "CA": "Kanada"
+        },
+        {
+          "US": "USA"
+        }
+      ]
+    },
+    {
+      "tag": "upload",
+      "name": "upload",
+      "label": "upload",
+      "required": false
+    },
+    {
+      "tag": "multiUpload",
+      "name": "multiUpload",
+      "label": "multiUpload",
+      "required": false
+    },
+    {
+      "tag": "hidden",
+      "name": "multiUpload",
+      "value": ""
+    },
+    {
+      "tag": "submit",
+      "name": "submit",
+      "Label": "Odeslat"
+    },
+    {
+      "tag": "button",
+      "name": "button",
+      "Label": "Tlačítko"
+    },
+    {
+      "tag": "imageButton",
+      "name": "imageButton",
+      "Label": "Tlačítko"
+    },
+    {
+      "tag": "container",
+      "name": "container",
+      "inputs": []
+    }
+  ]
+}
